@@ -179,7 +179,8 @@ app.put('/reset/password/:id',(req,res)=>{
     res.status(200).send('Password updated!')
 })
 
-//just tests
+
+//just some things
 app.listen(3030,()=>{
     console.log('Connecting to 3030...')
 })
